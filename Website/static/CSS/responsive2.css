@@ -1,0 +1,67 @@
+#header-right h3 {
+    font-size: 3.5vw;
+    width: 14vw;
+}
+
+#header-right #contact a {
+    font-size: 3.1vw;
+}
+
+#header-right {
+    width: 50vw;
+    /* justify-content: center; */
+}
+
+.dot {
+    width: 3.5vw;
+    margin-left: 3px;
+    height: 3.5vw;
+
+}
+
+ #header-left #logo a {
+    font-size: 3vw;
+}
+
+#part-4 {
+    margin-top: 10vh;
+}
+
+section#part-4 #text-4 {
+    margin-bottom: 0;
+}
+
+section#part-2 {
+    height: 70vh;
+}
+
+nav #logo {
+    font-size: 3vw;
+}
+Header {
+    padding: 5vw;
+}
+#close {
+    font-size: 3vw;
+}
+
+#upper-nav #main-nav a {
+    font-size: 6vw;
+}
+
+#side-nav a {
+    font-size: 3vw;
+}
+
+#small-nav a {
+    font-size: 2vw;
+}
+
+#side-nav h2 {
+    font-size: 3vw;
+    width: 100%;
+}
+
+ #footer-between #part-right {
+     width: 70%;
+ }

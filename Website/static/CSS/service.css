@@ -1,0 +1,22 @@
+section#service-hero {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 64px 30px;
+}
+#service-intro{
+    text-align: center;
+    rotate: -.3deg;
+}
+#service-intro h1 {
+    font-size: 4vw;
+    clip-path: polygon(0 2%, 100% 0, 100% 136%, 0% 171%);
+}
+section#service-hero{
+    height: 100vh;
+    width: 100%;
+    /* padding: 0px 30px; */
+}

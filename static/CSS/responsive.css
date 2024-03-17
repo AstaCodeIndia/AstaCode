@@ -1,0 +1,54 @@
+#part-2 #right-part {
+    width: 55vw;
+}
+
+#part-2 #right-part h2 {
+    margin-bottom: 0;
+    /* font-size: 4vw; */
+}
+
+.home-line {
+    margin-top: -5vh;
+}
+
+#part-2 {
+    height: 90vh;
+}
+
+#part-3 {
+    height: 50vh;
+}
+
+
+.btn {
+    width: 37vw;
+    height: 21vw;
+}
+
+.btn span {
+    font-size: 4vw;
+}
+
+#part-4 {
+    margin-top: 50vh;
+}
+section#part-4 #text-4{
+    margin-bottom: 40px;
+}
+section#part-4 #text-4 h2 {
+    margin-bottom: 0;
+}
+#header-right {
+    width: 30vw;
+    justify-content: center;
+}
+.dot{
+        width: 2.5vw;
+            height: 2.5vw;
+}
+ #header-left #logo a{
+    font-size: 2.5vw;
+ }
+ #footer-between #part-right{
+    width: 45%;
+ }
