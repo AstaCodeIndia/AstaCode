@@ -75,6 +75,7 @@ gsap.from(" #header-right h3", {
     // scale: 0
 
 })
+
 const video = document.querySelector("#part-5 video");
 document.querySelector("#part-5 #hover-btn button").addEventListener("mouseover", () => {
     gsap.to('#part-5 video', {
@@ -92,3 +93,4 @@ document.querySelector("#part-5 #hover-btn button").addEventListener("mouseleave
     })
     video.pause();
 })
+

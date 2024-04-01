@@ -4,8 +4,8 @@ gsap.to("#part-2  #left  #l-txt  h2  span h2", {
     duration: .5,
     scrollTrigger: {
         trigger: "#part-2",
-        start: "top 40%",
-        end: " top 40%",
+        start: "top 70%",
+        end: " top 70%",
         // markers: true,
         scrub: 1
     }
@@ -16,8 +16,8 @@ gsap.from("#part-2  #left  #l-txt  h3", {
     duration: .5,
     scrollTrigger: {
         trigger: "#part-2",
-        start: "top 40%",
-        end: " top 40%",
+        start: "top 70%",
+        end: " top 70%",
         // markers: true,
         scrub: 1
     }
@@ -29,8 +29,8 @@ gsap.from("#part-2 #right #r-txt h2",{
     // delay: 1,
     scrollTrigger: {
         trigger: "#part-2 ",
-        start: "top 40%",
-        end: " top 40%",
+        start: "top 70%",
+        end: " top 70%",
         // markers: true,
         scrub: 1
     }
@@ -42,8 +42,8 @@ gsap.from("#text-4",{
     // delay: 1,
     scrollTrigger: {
         trigger: "#part-4 ",
-        start: "top 40%",
-        end: " top 40%",
+        start: "top 70%",
+        end: " top 70%",
         // markers: true,
         scrub: 1
     }
@@ -54,8 +54,8 @@ gsap.to("#part-3  #part-3-right  #right-top  h1  span", {
     duration: .5,
     scrollTrigger: {
         trigger: "#part-3",
-        start: "top 20%",
-        end: " top 20%",
+        start: "top 70%",
+        end: " top 70%",
         // markers: true,
         scrub: 1
     }

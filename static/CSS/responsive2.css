@@ -19,7 +19,7 @@
 
 }
 
- #header-left #logo a {
+#header-left #logo a {
     font-size: 3vw;
 }
 
@@ -38,9 +38,11 @@ section#part-2 {
 nav #logo {
     font-size: 3vw;
 }
+
 Header {
     padding: 5vw;
 }
+
 #close {
     font-size: 3vw;
 }
@@ -62,6 +64,240 @@ Header {
     width: 100%;
 }
 
- #footer-between #part-right {
-     width: 70%;
- }
+#footer-between #part-right {
+    width: 70%;
+}
+
+#hero {
+    height: calc(90vh - 20px);
+}
+
+#big-text {
+    display: inline-block;
+    /* background-color: red; */
+    overflow: hidden;
+    height: 15%;
+}
+
+#sub-text {
+    display: inline-block;
+    /* background-color: green; */
+    overflow: hidden;
+    height: 7%;
+    margin-bottom: 20px;
+}
+
+#scroll-hint {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 0.7;
+    position: absolute;
+    bottom: 20px;
+}
+
+#r-txt h2 {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+}
+
+#l-txt h2 {
+    font-size: 3.26vw;
+    margin-left: 2vw;
+    /* margin-top: -20%; */
+}
+
+#center {
+    height: 60vh;
+    width: 10vw;
+    /* background-color: #727070; */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+#right-bottom {
+    /* width: 200px; */
+    /* height: 200px; */
+    border-radius: 40px;
+}
+
+#right-centre {
+    margin-bottom: 20px;
+}
+
+#part-3 {
+    height: 30vh;
+}
+
+section#part-4 {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px 6vw;
+    background-color: #FEE0DD;
+    border-top-left-radius: 95px;
+    border-top-right-radius: 95px;
+}
+
+#left-4 {
+    height: 20vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+section#part-5 {
+    height: 35vh;
+}
+
+#hover-btn h2 {
+    font-size: 2.4vw;
+}
+
+#hover-btn button {
+    height: 50px;
+    width: 100px;
+}
+
+#form {
+    margin-top: 0px;
+}
+
+#Service-hero h1 {
+    font-size: 3.5vw;
+}
+
+section#Service-hero {
+    height: 45vh;
+}
+
+#part-2-right {
+    width: 50vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* border: 1px solid #FB503A; */
+    border-radius: 50%;
+    /* height: 100vh; */
+}
+
+#part-2-right img {
+    width: 60vw;
+    height: 31vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#partners-part-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0px 2vw;
+    /* height: 100vh; */
+    margin-top: 50px;
+}
+#part-2-left, #part-2-right {
+    height: 35vh;
+}
+.about-heading h1 {
+    color: #FB503A;
+    position: relative;
+    /* bottom: 0; */
+    font-size: 5vw;
+}
+.min-head {
+    color: #FB503A;
+    font-size: 3vw;
+    margin: 10px 0px;
+}
+.heading {
+    font-size: 3.5vw;
+    overflow: hidden;
+    display: inline-block;
+}
+.brief h2 {
+    font-size: 2.5vw;
+    overflow: hidden;
+    display: inline-block;
+}
+.keys {
+    font-size: 2vw;
+}
+.outro h2 {
+    font-size: 2.5vw;
+}
+.min-para {
+    /* color: #FB503A; */
+    font-size: 2.5vw;
+}
+#review {
+    width: 40%;
+}
+#partner-right h1 {
+    font-size: 1.9vw;
+}
+#part-top h1 {
+    font-size: 1.9vw;
+    margin-left: 10px;
+}
+#name h2 {
+    font-size: 2.3vw;
+    font-weight: 400;
+    opacity: .5;
+}
+#name h1 {
+    font-size: 4vw;
+    font-weight: 500;
+}
+#p3pd h2 {
+    font-weight: 400;
+    width: 65vw;
+    font-size: 2.3vw;
+    text-align: center;
+}
+#p3pd h1 {
+    font-size: 5vw;
+    font-weight: 500;
+}
+#review h2 {
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+footer #footer-up #up-part h2 {
+    font-size: 3vw;
+}
+
+footer #menu .menu-item {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.3vw;
+    margin: 10px;
+    color: var(--seconary-color);
+    position: relative;
+}
+
+#footer-between #part-left h2 {
+    font-size: 1.8vw;
+}
+
+#footer-between #part-right {
+    font-size: 2.8vw;
+}
+
+footer {
+    height: 35vh;
+}

@@ -1,3 +1,6 @@
+#cursor {
+    display: none;
+}
 #part-2 #right-part {
     width: 55vw;
 }
@@ -32,23 +35,128 @@
 #part-4 {
     margin-top: 50vh;
 }
-section#part-4 #text-4{
+
+section#part-4 #text-4 {
     margin-bottom: 40px;
 }
+
 section#part-4 #text-4 h2 {
     margin-bottom: 0;
 }
+
 #header-right {
     width: 30vw;
     justify-content: center;
 }
-.dot{
-        width: 2.5vw;
-            height: 2.5vw;
+
+.dot {
+    width: 2.5vw;
+    height: 2.5vw;
 }
- #header-left #logo a{
+
+#header-left #logo a {
     font-size: 2.5vw;
- }
- #footer-between #part-right{
+}
+
+#footer-between #part-right {
     width: 45%;
- }
+}
+
+#big-text {
+    display: inline-block;
+    /* background-color: red; */
+    overflow: hidden;
+    height: 25%;
+}
+
+#sub-text {
+    display: inline-block;
+    /* background-color: green; */
+    overflow: hidden;
+    height: 15%;
+    margin-bottom: 20px;
+}
+
+#r-txt h2 {
+    font-size: 1.8vw;
+    margin-right: 2vw;
+}
+
+#center {
+    height: 69vh;
+    width: 10vw;
+    /* background-color: #727070; */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+#image-wrapper-3 {
+    width: 35vw;
+    border-radius: 70px;
+    height: 40vw;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+#image-wrapper-3 img {
+    width: 35vw;
+    height: 40vw;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+#part-3-right {
+    /* background-color: #fff; */
+    padding: 20px 0px;
+    height: 75vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#right-centre {
+    margin-bottom: 20px;
+}
+section#part-4 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px 6vw;
+    background-color: #FEE0DD;
+    border-top-left-radius: 95px;
+    border-top-right-radius: 95px;
+}
+#text-4 {
+    font-size: 2.5vw;
+}
+
+#left-4 {
+    height: 35vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.team-mates img {
+    position: absolute;
+    left: 40%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: none;
+    animation: border-rotate 3s infinite;
+}
+#Service-hero h1 {
+    font-size: 3.8vw;
+    text-align: center;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+section#part-5 {
+    height: 37vh;
+}
