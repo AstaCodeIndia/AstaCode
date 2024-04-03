@@ -147,7 +147,7 @@ section#part-4 {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    display: none;
+    /* display: none; */
     animation: border-rotate 3s infinite;
 }
 #Service-hero h1 {

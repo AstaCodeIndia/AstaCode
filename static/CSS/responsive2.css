@@ -32,7 +32,72 @@ section#part-4 #text-4 {
 }
 
 section#part-2 {
-    height: 70vh;
+    min-height: 110vh;
+    flex-direction: column;
+    margin: 60px 0px;
+}
+
+#part-2 #center {
+    height: 60vh;
+    width: 100vw;
+    margin: 10px 0px;
+}
+
+.black-line {
+    width: 45vw;
+    height: 3.5px;
+    background-color: var(--seconary-color);
+    border-radius: 10px;
+}
+
+#r-txt h2 {
+    font-size: 2.5vw;
+    margin-right: 2vw;
+}
+
+#l-txt h2 {
+    font-size: 5vw;
+    margin-left: 2vw;
+    /* margin-top: -20%; */
+}
+
+#l-txt h3 {
+    font-size: 3.5vw;
+    margin: 2vw;
+    margin-left: 4vw;
+    color: var(--accent-color);
+}
+
+#left {
+    width: 100vw;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 0px 11vw;
+}
+
+#center {
+    height: 60vh;
+    width: 10vw;
+    /* background-color: #727070; */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+#right {
+    /* height: 90%; */
+    padding: 20px 11vw;
+    height: fit-content;
+    width: 100vw;
+    margin: 20px 0px;
+}
+
+#r-txt h2 {
+    font-size: 4.5vw;
+    margin-right: 2vw;
 }
 
 nav #logo {
@@ -95,26 +160,6 @@ Header {
     opacity: 0.7;
     position: absolute;
     bottom: 20px;
-}
-
-#r-txt h2 {
-    font-size: 2.5vw;
-    margin-right: 2vw;
-}
-
-#l-txt h2 {
-    font-size: 3.26vw;
-    margin-left: 2vw;
-    /* margin-top: -20%; */
-}
-
-#center {
-    height: 60vh;
-    width: 10vw;
-    /* background-color: #727070; */
-    display: flex;
-    align-items: top;
-    justify-content: center;
 }
 
 #right-bottom {
@@ -204,69 +249,86 @@ section#Service-hero {
     /* height: 100vh; */
     margin-top: 50px;
 }
-#part-2-left, #part-2-right {
+
+#part-2-left,
+#part-2-right {
     height: 35vh;
 }
+
 .about-heading h1 {
     color: #FB503A;
     position: relative;
     /* bottom: 0; */
     font-size: 5vw;
 }
+
 .min-head {
     color: #FB503A;
     font-size: 3vw;
     margin: 10px 0px;
 }
+
 .heading {
     font-size: 3.5vw;
     overflow: hidden;
     display: inline-block;
 }
+
 .brief h2 {
     font-size: 2.5vw;
     overflow: hidden;
     display: inline-block;
 }
+
 .keys {
     font-size: 2vw;
 }
+
 .outro h2 {
     font-size: 2.5vw;
 }
+
 .min-para {
     /* color: #FB503A; */
     font-size: 2.5vw;
 }
+
 #review {
     width: 40%;
 }
+
 #partner-right h1 {
     font-size: 1.9vw;
 }
+
 #part-top h1 {
     font-size: 1.9vw;
     margin-left: 10px;
 }
+
 #name h2 {
     font-size: 2.3vw;
     font-weight: 400;
     opacity: .5;
 }
+
 #name h1 {
     font-size: 4vw;
     font-weight: 500;
 }
+
 #p3pd h2 {
     font-weight: 400;
     width: 65vw;
     font-size: 2.3vw;
     text-align: center;
 }
+
 #p3pd h1 {
     font-size: 5vw;
     font-weight: 500;
 }
+
 #review h2 {
     font-size: 2.3vw;
     font-weight: 500;
@@ -300,4 +362,14 @@ footer #menu .menu-item {
 
 footer {
     height: 35vh;
+}
+
+/* Contact page  */
+
+#form-group input {
+    width: 80vw;
+    font-size: 2.2vw;
+}
+textarea {
+    font-size: 2.2vw;
 }
