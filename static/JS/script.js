@@ -23,7 +23,7 @@ function navToggler() {
         nav.style.top = "0px";
     })
     btn2.addEventListener("click", () => {
-        nav.style.top = "-100%";
+        nav.style.top = "-150%";
     })
 }
 navToggler();
