@@ -104,7 +104,11 @@ nav #logo {
     font-size: 3vw;
 }
 
-Header {
+header{
+    padding: 5vw;
+    visibility: visible;
+    z-index: 1000;
+    position: absolute;
     padding: 5vw;
 }
 
@@ -370,6 +374,7 @@ footer {
     width: 80vw;
     font-size: 2.2vw;
 }
+
 textarea {
     font-size: 2.2vw;
 }
