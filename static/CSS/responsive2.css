@@ -106,10 +106,6 @@ nav #logo {
 
 header{
     padding: 5vw;
-    visibility: visible;
-    z-index: 1000;
-    position: absolute;
-    padding: 5vw;
 }
 
 #close {
@@ -203,7 +199,7 @@ section#part-4 {
 }
 
 section#part-5 {
-    height: 35vh;
+    height: 30vh;
 }
 
 #hover-btn h2 {
