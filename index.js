@@ -29,6 +29,11 @@ app.get('/normal', (req, res) => {
     const params = {};
     res.status(200).render('mainframe.ejs', params);
 })
+app.get('/robots.txt', function (req, res) {
+    res.type('text/plain');
+    res.send("User-agent: *\nDisallow:");
+});
+
 
 // Add a POST route for form submissions * it is for nodemailer*
 app.post('/contact-us', (req, res) => {
