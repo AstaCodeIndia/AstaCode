@@ -30,8 +30,8 @@ app.get('/normal', (req, res) => {
     res.status(200).render('mainframe.ejs', params);
 })
 app.get('/robots.txt', function (req, res) {
-    const params = {};
-    res.status(200).render('robots.txt', params);
+    res.type('text/plain');
+    res.send("User-agent: *\nDisallow:/normal");
 });
 
 
